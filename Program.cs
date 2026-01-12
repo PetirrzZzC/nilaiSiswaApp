@@ -2,5 +2,10 @@
 string nama;
 
 Console.WriteLine("Aplikasi Nilai Siswa");
-Console.WriteLine("tes");
-Console.WriteLine("p");
+
+Console.WriteLine("Masukkan Nama : ");
+nama = Console.ReadLine();
+
+Console.WriteLine("Masukkan Nilai : ");
+nilai = int.Parse(Console.ReadLine());
+
